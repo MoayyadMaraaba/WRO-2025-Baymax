@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulation</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="ar">
+        <div class="arena">
+          <!-- First Corner (Top left) -->
+          <div class="box corner-top-left">
+            <div class="line orange"></div>
+            <div class="line blue"></div>
+          </div>
+
+          <div class="box sf">
+            <!-- First Line -->
+            <div class="sf__line1">
+              <div class="left sp"></div>
+              <div class="right sp"></div>
+            </div>
+
+            <!-- Second Line -->
+            <div class="sf__line2">
+              <div class="left sp">
+                <div class="sign-seat-top-left sign__seat"></div>
+                <div class="sign-seat-top-right sign__seat"></div>
+                <div class="sign-seat-bottom-left sign__seat"></div>
+                <div class="sign-seat-bottom-right sign__seat"></div>
+              </div>
+              <div class="right sp">
+                <div class="sign-seat-top-right sign__seat"></div>
+                <div class="sign-seat-bottom-right sign__seat"></div>
+              </div>
+            </div>
+
+            <!-- Third Line -->
+            <div class="sf__line1">
+              <div class="left sp"></div>
+              <div class="right sp"></div>
+            </div>
+          </div>
+
+          <!-- Second Corner (Top right) -->
+          <div class="box corner-top-right">
+            <div class="line blue"></div>
+            <div class="line orange"></div>
+          </div>
+
+          <div class="box sf">
+            <!-- First Line -->
+            <div class="sf__line1">
+              <div class="left sp"></div>
+              <div class="right sp"></div>
+            </div>
+
+            <!-- Second Line -->
+            <div class="sf__line2">
+              <div class="left sp">
+                <div class="sign-seat-top-left sign__seat"></div>
+                <div class="sign-seat-top-right sign__seat"></div>
+                <div class="sign-seat-bottom-left sign__seat"></div>
+                <div class="sign-seat-bottom-right sign__seat"></div>
+              </div>
+              <div class="right sp">
+                <div class="sign-seat-top-right sign__seat"></div>
+                <div class="sign-seat-bottom-right sign__seat"></div>
+              </div>
+            </div>
+
+            <!-- Third Line -->
+            <div class="sf__line1">
+              <div class="left sp"></div>
+              <div class="right sp"></div>
+            </div>
+          </div>
+
+          <div class="box"></div>
+
+          <div class="box sf">
+            <!-- First Line -->
+            <div class="sf__line1">
+              <div class="left sp"></div>
+              <div class="right sp"></div>
+            </div>
+
+            <!-- Second Line -->
+            <div class="sf__line2">
+              <div class="left sp">
+                <div class="sign-seat-top-left sign__seat"></div>
+                <div class="sign-seat-top-right sign__seat"></div>
+                <div class="sign-seat-bottom-left sign__seat"></div>
+                <div class="sign-seat-bottom-right sign__seat"></div>
+              </div>
+              <div class="right sp">
+                <div class="sign-seat-top-right sign__seat"></div>
+                <div class="sign-seat-bottom-right sign__seat"></div>
+              </div>
+            </div>
+
+            <!-- Third Line -->
+            <div class="sf__line1">
+              <div class="left sp"></div>
+              <div class="right sp"></div>
+            </div>
+          </div>
+
+          <!-- Third Corner (Bottom Left) -->
+          <div class="box corner-bottom-left">
+            <div class="line orange"></div>
+            <div class="line blue"></div>
+          </div>
+
+          <div class="box sf">
+            <!-- First Line -->
+            <div class="sf__line1">
+              <div class="left sp"></div>
+              <div class="right sp"></div>
+            </div>
+
+            <!-- Second Line -->
+            <div class="sf__line2">
+              <div class="left sp">
+                <div class="sign-seat-top-left sign__seat"></div>
+                <div class="sign-seat-top-right sign__seat"></div>
+                <div class="sign-seat-bottom-left sign__seat"></div>
+                <div class="sign-seat-bottom-right sign__seat"></div>
+              </div>
+              <div class="right sp">
+                <div class="sign-seat-top-right sign__seat"></div>
+                <div class="sign-seat-bottom-right sign__seat"></div>
+              </div>
+            </div>
+
+            <!-- Third Line -->
+            <div class="sf__line1">
+              <div class="left sp"></div>
+              <div class="right sp"></div>
+            </div>
+          </div>
+
+          <!-- Fourth Corner (Bottom Right) -->
+          <div class="box corner-bottom-right">
+            <div class="line orange"></div>
+            <div class="line blue"></div>
+          </div>
+
+        </div>
+          <img src="./images/car.svg" width="30" height="30" class="robot">
+
+
+      </div>
+
+      <div class="controls">
+        <div class="controls__title">
+          <h2>Controls</h2>
+        </div>
+        <div class="controls__settings">
+          <div class="controls__dropdown">
+            <h3>Game type:</h3>
+            <select id="game" class="dropdown">
+              <option value="Open">Open Challenge</option>
+              <option value="Obstacle">Obstacle Challenge</option>
+            </select>
+          </div>
+          <div class="controls__dropdown">
+            <h3>Direction:</h3>
+            <select id="direction" class="dropdown">
+              <option value="Clockwise">Clockwise</option>
+              <option value="Counter">Counter Clockwise</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

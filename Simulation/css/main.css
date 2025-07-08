@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+label {
+  display: block;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+:root {
+    --BG-COLOR: #121212;
+    --PRIMARY-COLOR: #EC8DEB;
+}
